@@ -1,11 +1,8 @@
 package vk_bootstrap
 
-// Core
+import "base:runtime"
 import "core:log"
 import "core:mem"
-import "base:runtime"
-
-// Vendor
 import vk "vendor:vulkan"
 
 Swapchain_Builder :: struct {
@@ -39,15 +36,15 @@ Buffer_Mode :: enum u32 {
 }
 
 DEFAULT_SWAPCHAIN_BUILDER :: Swapchain_Builder {
-	instance_version = vk.API_VERSION_1_0,
-	create_flags = {},
-	desired_width = 256,
-	desired_height = 256,
+	instance_version  = vk.API_VERSION_1_0,
+	create_flags      = {},
+	desired_width     = 256,
+	desired_height    = 256,
 	array_layer_count = 1,
 	image_usage_flags = {.COLOR_ATTACHMENT},
-	pre_transform = {},
-	composite_alpha = {.OPAQUE},
-	clipped = true,
+	pre_transform     = {},
+	composite_alpha   = {.OPAQUE},
+	clipped           = true,
 }
 
 // Construct a `Swapchain_Builder` with a `vkb.Device`.

@@ -1,6 +1,5 @@
 package vk_bootstrap
 
-// Core
 import "core:mem"
 
 @(private)

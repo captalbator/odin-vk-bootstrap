@@ -1,6 +1,5 @@
 package vk_bootstrap
 
-// Vendor
 import vk "vendor:vulkan"
 
 setup_p_next_chain :: proc(structure: ^$T, structs: ^[dynamic]^vk.BaseOutStructure) {

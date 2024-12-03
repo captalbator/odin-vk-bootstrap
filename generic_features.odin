@@ -1,12 +1,9 @@
 #+private
 package vk_bootstrap
 
-// Core
 import "core:log"
 import "core:mem"
 import "core:reflect"
-
-// Vendor
 import vk "vendor:vulkan"
 
 // Assuming the total of bits from any extension feature.

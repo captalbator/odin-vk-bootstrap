@@ -1,12 +1,9 @@
 package vk_bootstrap
 
-// Core
 import "base:runtime"
 import "core:log"
 import "core:mem"
 import "core:strings"
-
-// Vendor
 import vk "vendor:vulkan"
 
 Instance_Builder :: struct {

@@ -1,6 +1,5 @@
 package vk_bootstrap
 
-// Vendor
 import vk "vendor:vulkan"
 
 // Finds the first queue which supports the desired operations.

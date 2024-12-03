@@ -1,6 +1,5 @@
 package vk_bootstrap
 
-// Vendor
 import vk "vendor:vulkan"
 
 Instance :: struct {

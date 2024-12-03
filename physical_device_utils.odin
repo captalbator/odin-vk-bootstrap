@@ -1,9 +1,6 @@
 package vk_bootstrap
 
-// Core
 import "core:log"
-
-// Vendor
 import vk "vendor:vulkan"
 
 check_device_extension_support :: proc(

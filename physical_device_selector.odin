@@ -1,12 +1,9 @@
 package vk_bootstrap
 
-// Core
+import "base:runtime"
 import "core:log"
 import "core:mem"
-import "base:runtime"
 import "core:strings"
-
-// Vendor
 import vk "vendor:vulkan"
 
 Physical_Device_Selector :: struct {

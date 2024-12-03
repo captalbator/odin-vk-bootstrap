@@ -1,9 +1,6 @@
 package vk_bootstrap
 
-// Core
 import "core:dynlib"
-
-// Vendor
 import vk "vendor:vulkan"
 
 @(private = "file")
